@@ -82,4 +82,5 @@ fn main() {
 
     let cards = deck.deal(5); // Dealing 5 cards from the deck using the deal method
     println!("Heres your deck: {:#?}", deck); // adding # to the debug format specifier will print the deck in a more readable, pretty-printed format.
+    println!("You have been dealt: {:#?}", cards); // Print the dealt cards in a pretty-printed format.
 }
